@@ -1,6 +1,6 @@
 # Project-3 - An interactive Pokemon dashboard
 
-![image](https://user-images.githubusercontent.com/115706722/219478484-7ae532b1-fc70-44c5-b461-5c4b7363e501.png)
+![image](https://user-images.githubusercontent.com/115706722/219479357-49d4c9a6-e6a2-4135-aa6f-64a103782955.jpeg)
 
 
 ## Contents
