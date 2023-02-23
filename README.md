@@ -18,7 +18,12 @@
 
 ## <a id="dataset-header"></a>Dataset
 
+We decided to use a Pokemon dataset which includes different information about each Pokemon, e.g h
+
 ## <a id="project-header"></a>Project Outline
+
+This project is the creation of an interactive dashboard that allows the user to search for a Pokemon and view their stats or alternatively use the dropdown menu to nagivate this information. The user may also access the maps page which displays where Pokemon characters live and also see how well they hold their territory by the visualisation of their power of attack vs their height!
+
   * An interactive map using 
   * A SQLlite databse
 
