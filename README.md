@@ -18,16 +18,12 @@
 
 ## <a id="dataset-header"></a>Dataset
 
-We decided to use a Pokemon dataset which includes different information about each Pokemon, e.g h
-
 ## <a id="project-header"></a>Project Outline
-
-This project is the creation of an interactive dashboard that allows the user to search for a Pokemon and view their stats or alternatively use the dropdown menu to nagivate this information. The user may also access the maps page which displays where Pokemon characters live and also see how well they hold their territory by the visualisation of their power of attack vs their height!
-
   * An interactive map using 
   * A SQLlite databse
 
  ## :wrench: <a id="reports-header"></a>Tools used :wrench:
+  * Jupyter Notebook
   * Javascript (d3, leaflet,
   * SQLlite
   * API
@@ -47,12 +43,22 @@ This project is the creation of an interactive dashboard that allows the user to
 
  **Steps in the process of plotting of Pokemon  
 
-- First we exported the data to a csv
-- Then we created a pivot table because there were several locations with similar names, so it was important to ensure that those locations have the same latitude and longitude, in order for the interactive map to reflect this
--  Then we looked at world map to decide where to plot the fiction Pokemon location, gave each fiction Pokemon location a real city name from different countries and assigned the latitude and longitude of the real city
--  We then created another csv for the Pokemon names and the latitude and longitude data (this was later converted in json format so it may be pulled in javascript
+- First we pulled the data from the API and made a dataframe in Jupyter Notebook
+!<img width="697" alt="Data extraction" src="https://user-images.githubusercontent.com/115706722/220992514-06006d4f-9078-4765-85b6-fe9415e48d0a.png">
+
+- We then exported the data to a csv
+- Then we looked at the world map and assigned each fiction Pokemon location a real city name from the world map, with corresponding coordinates so we were able to plot the fiction Pokemon location by latitude and longitude
+- We then created another csv for the Pokemon names and the latitude and longitude data (this was later converted in json format so it may be pulled in javascript
 -  Finally we created dataframe from the new location data and merged with previous dataframe
--  ** insert screenshot ** 
+
+- We then exported the clean DataFrame to SQLite
+!<img width="736" alt="SQLite" src="https://user-images.githubusercontent.com/115706722/220993712-881f3e21-466a-4644-9880-2f9bb2a988c4.png">
+- Once our database was completed, we started the process of using Flask to work on the interactivity of oure page.
+!<img width="903" alt="image" src="https://user-images.githubusercontent.com/115706722/220994654-231f5b53-e141-4962-bc85-e1660a52f779.png">
+!<img width="643" alt="Flask image" src="https://user-images.githubusercontent.com/115706722/220995070-0813c2e5-2c24-44dd-afd9-3c663fadc9e6.png">
+
+_-  ** insert screenshot ** <img width="617" alt="Screenshot 2023-02-22 at 16 30 27" src="https://user-images.githubusercontent.com/115706722/220922160-574e8db6-844e-498a-8e4a-fe6e69fbc83f.png">
+_
 
  ## :stop_sign: <a id="challenge-header"></a>**Challenges** :stop_sign:
 
