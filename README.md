@@ -29,15 +29,8 @@
   * API
   * HTML/CSS
   
- ## :inbox_tray: <a id="dependencies-header"></a>Dependencies and Setup Required :inbox_tray:
-*
-*
 
 
- ## :open_file_folder: <a id="file-header"></a>**File Guide** :open_file_folder:
-
-**location_with_lat_long.ipynb** --> 
-**Final Notebook.ipynb --> **
 
  ## :computer: <a id="process-header"></a>An Inight into the Process :computer:
 
