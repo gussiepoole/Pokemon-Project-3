@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="/static/images/Charizard.png" type="image/x-icon">
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;700&display=swap" rel="stylesheet">
+
+  <title>Pokemon Attack Types Pie Chart</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/cosmo/bootstrap.min.css"
+    integrity="sha256-iMtue7kH6spfqTbfU9XGcwtBF8bgiOnVTErTuh7LJr8=" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="header__navBar">
+      <ul>
+        <li>
+          <a href="/">
+              <img src="https://img.icons8.com/plasticine/256/home-page.png"/>
+              <span>Home</span>
+          </a>
+      </li>
+        <li>
+          <a href="https://pokeapi.co/" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/pokeball-2.png" />
+            <span>Pokemon API</span>
+          </a>
+        </li>
+        <li>
+          <a href="/chart_select">
+            <img src="https://img.icons8.com/office/512/doughnut-chart--v1.png" />
+            <span>Charts</span>
+          </a>
+        </li>
+        <li>
+          <a href="/map_select">
+          <img src="https://scarletviolet.pokemon.com/_images/news/aug_3/world-map-2x.jpg"/>
+              <span>PokeMaps</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/gussiepoole/Project-3" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/48/000000/github.png" />
+            <span>Our Github</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- The div that holds our map -->
+  <div id="map"></div>
+
+  <!-- Main Container section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Pokemon Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+          <div class="well">
+              <h5>Pokemon:</h5>
+              <select id="selPokemon" onchange="optionChanged(this.value)"></select>
+          </div>
+      </div>
+  </div>
+  <p></p>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Pokemon name</th>
+              <th>Main ability</th>
+              <th>Type of Move</th>
+              <th>Fighting type</th>
+              <th>Attack</th>
+              <th>Defense</th>
+              <th>Growth Rate</th>
+              <th>Region</th>
+              <th>Height</th>
+              <th>Weight</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <script src="../static/js/charts.js"></script>
+</body>
+
+</html>

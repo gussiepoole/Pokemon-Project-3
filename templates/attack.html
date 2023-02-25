@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D Scatter Plot of Pokemon Attack and Defence</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div id="plot"></div>
+    <script>
+      // Make a GET request to the PokeAPI to retrieve data for 150 Pokemon
+      const url = 'https://pokeapi.co/api/v2/pokemon?limit=150';
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          // Extract the attack and defence stats from the Pokemon data
+          const attack = data.results.map(pokemon => pokemon.stats.find(stat => stat.stat.name === 'attack').base_stat);
+          const defence = data.results.map(pokemon => pokemon.stats.find(stat => stat.stat.name === 'defense').base_stat);
+          const defence = data.results.map(pokemon => pokemon.stats.find(stat => stat.stat.name === 'HP').base_stat);
+
+          // Create a trace for the scatter plot
+          const trace = {
+            x: attack,
+            y: defence,
+            mode: 'markers',
+            type: 'scatter3d',
+            marker: {
+              size: 4,
+              color: 'rgb(0, 255, 0)',
+            },
+          };
+
+          // Create the data array for the plot
+          const data = [trace];
+
+          // Create the layout for the plot
+          const layout = {
+            title: 'Attack and Defence Stats of 150 Pokemon',
+            scene: {
+              xaxis: { title: 'Attack' },
+              yaxis: { title: 'Defence' },
+              zaxis: { title: 'HP' },
+            },
+          };
+
+          // Create the plot and add it to the page
+          Plotly.newPlot('plot', data, layout);
+        })
+        .catch(error => {
+          console.error('Error retrieving Pokemon data:', error);
+        });
+    </script>
+  </body>
+</html>

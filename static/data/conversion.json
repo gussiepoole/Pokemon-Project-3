@@ -1,0 +1,752 @@
+[
+    {
+        "Pokemon name": "bulbasaur",
+        "Latitude": "6.8428",
+        "Longitude": "81.3399"
+    },
+    {
+        "Pokemon name": "ivysaur",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "venusaur",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "charmander",
+        "Latitude": "7.2936",
+        "Longitude": "80.6413"
+    },
+    {
+        "Pokemon name": "charmeleon",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "charizard",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "squirtle",
+        "Latitude": "8.8564",
+        "Longitude": "80.2042"
+    },
+    {
+        "Pokemon name": "wartortle",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "blastoise",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "caterpie",
+        "Latitude": "35.6762",
+        "Longitude": "139.6503"
+    },
+    {
+        "Pokemon name": "metapod",
+        "Latitude": "35.6762",
+        "Longitude": "139.6503"
+    },
+    {
+        "Pokemon name": "butterfree",
+        "Latitude": "43.6028",
+        "Longitude": "39.7342"
+    },
+    {
+        "Pokemon name": "weedle",
+        "Latitude": "35.6762",
+        "Longitude": "139.6503"
+    },
+    {
+        "Pokemon name": "kakuna",
+        "Latitude": "35.6762",
+        "Longitude": "139.6503"
+    },
+    {
+        "Pokemon name": "beedrill",
+        "Latitude": "43.6028",
+        "Longitude": "39.7342"
+    },
+    {
+        "Pokemon name": "pidgey",
+        "Latitude": "59.9343",
+        "Longitude": "30.3351"
+    },
+    {
+        "Pokemon name": "pidgeotto",
+        "Latitude": "6.0329",
+        "Longitude": "80.2168"
+    },
+    {
+        "Pokemon name": "pidgeot",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "rattata",
+        "Latitude": "55.754093",
+        "Longitude": "37.620407"
+    },
+    {
+        "Pokemon name": "raticate",
+        "Latitude": "55.754093",
+        "Longitude": "37.620407"
+    },
+    {
+        "Pokemon name": "spearow",
+        "Latitude": "55.754093",
+        "Longitude": "37.620407"
+    },
+    {
+        "Pokemon name": "fearow",
+        "Latitude": "38.2682",
+        "Longitude": "140.8694"
+    },
+    {
+        "Pokemon name": "ekans",
+        "Latitude": "52.2855",
+        "Longitude": "104.289"
+    },
+    {
+        "Pokemon name": "arbok",
+        "Latitude": "45.7567",
+        "Longitude": "126.6424"
+    },
+    {
+        "Pokemon name": "pikachu",
+        "Latitude": "13.0827",
+        "Longitude": "80.2707"
+    },
+    {
+        "Pokemon name": "raichu",
+        "Latitude": "22.1987",
+        "Longitude": "113.5439"
+    },
+    {
+        "Pokemon name": "sandshrew",
+        "Latitude": "9.9312",
+        "Longitude": "76.2673"
+    },
+    {
+        "Pokemon name": "sandslash",
+        "Latitude": "19.076",
+        "Longitude": "72.8777"
+    },
+    {
+        "Pokemon name": "nidoran-f",
+        "Latitude": "43.6028",
+        "Longitude": "39.7342"
+    },
+    {
+        "Pokemon name": "nidorina",
+        "Latitude": "30.5928",
+        "Longitude": "114.3052"
+    },
+    {
+        "Pokemon name": "nidoqueen",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "nidoran-m",
+        "Latitude": "43.6028",
+        "Longitude": "39.7342"
+    },
+    {
+        "Pokemon name": "nidorino",
+        "Latitude": "30.5928",
+        "Longitude": "114.3052"
+    },
+    {
+        "Pokemon name": "nidoking",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "clefairy",
+        "Latitude": "35.0116",
+        "Longitude": "135.7681"
+    },
+    {
+        "Pokemon name": "clefable",
+        "Latitude": "18.5204",
+        "Longitude": "73.8567"
+    },
+    {
+        "Pokemon name": "vulpix",
+        "Latitude": "54.9914",
+        "Longitude": "73.3645"
+    },
+    {
+        "Pokemon name": "ninetales",
+        "Latitude": "17.385",
+        "Longitude": "78.4867"
+    },
+    {
+        "Pokemon name": "jigglypuff",
+        "Latitude": "22.7196",
+        "Longitude": "75.8577"
+    },
+    {
+        "Pokemon name": "wigglytuff",
+        "Latitude": "23.8103",
+        "Longitude": "90.4125"
+    },
+    {
+        "Pokemon name": "zubat",
+        "Latitude": "35.4437",
+        "Longitude": "139.638"
+    },
+    {
+        "Pokemon name": "golbat",
+        "Latitude": "35.0116",
+        "Longitude": "135.7681"
+    },
+    {
+        "Pokemon name": "oddish",
+        "Latitude": "55.7879",
+        "Longitude": "49.1233"
+    },
+    {
+        "Pokemon name": "gloom",
+        "Latitude": "55.7879",
+        "Longitude": "49.1233"
+    },
+    {
+        "Pokemon name": "vileplume",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "paras",
+        "Latitude": "43.6028",
+        "Longitude": "39.7342"
+    },
+    {
+        "Pokemon name": "parasect",
+        "Latitude": "13.7563",
+        "Longitude": "100.5018"
+    },
+    {
+        "Pokemon name": "venonat",
+        "Latitude": "59.9343",
+        "Longitude": "30.3351"
+    },
+    {
+        "Pokemon name": "venomoth",
+        "Latitude": "59.9343",
+        "Longitude": "30.3351"
+    },
+    {
+        "Pokemon name": "diglett",
+        "Latitude": "58.5256",
+        "Longitude": "31.2742"
+    },
+    {
+        "Pokemon name": "dugtrio",
+        "Latitude": "58.5256",
+        "Longitude": "31.2742"
+    },
+    {
+        "Pokemon name": "meowth",
+        "Latitude": "17.3647",
+        "Longitude": "102.8159"
+    },
+    {
+        "Pokemon name": "persian",
+        "Latitude": "-33.9249",
+        "Longitude": "18.4241"
+    },
+    {
+        "Pokemon name": "psyduck",
+        "Latitude": "25.2736",
+        "Longitude": "110.29"
+    },
+    {
+        "Pokemon name": "golduck",
+        "Latitude": "25.2736",
+        "Longitude": "110.29"
+    },
+    {
+        "Pokemon name": "mankey",
+        "Latitude": "55.754093",
+        "Longitude": "37.620407"
+    },
+    {
+        "Pokemon name": "primeape",
+        "Latitude": "55.754093",
+        "Longitude": "37.620407"
+    },
+    {
+        "Pokemon name": "growlithe",
+        "Latitude": "43.6028",
+        "Longitude": "39.7342"
+    },
+    {
+        "Pokemon name": "arcanine",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "poliwag",
+        "Latitude": "55.754093",
+        "Longitude": "37.620407"
+    },
+    {
+        "Pokemon name": "poliwhirl",
+        "Latitude": "55.754093",
+        "Longitude": "37.620407"
+    },
+    {
+        "Pokemon name": "poliwrath",
+        "Latitude": "18.2855",
+        "Longitude": "99.5128"
+    },
+    {
+        "Pokemon name": "abra",
+        "Latitude": "43.1332",
+        "Longitude": "131.9113"
+    },
+    {
+        "Pokemon name": "kadabra",
+        "Latitude": "54.7903",
+        "Longitude": "32.0504"
+    },
+    {
+        "Pokemon name": "alakazam",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "machop",
+        "Latitude": "35.0116",
+        "Longitude": "135.7681"
+    },
+    {
+        "Pokemon name": "machoke",
+        "Latitude": "32.7503",
+        "Longitude": "129.8779"
+    },
+    {
+        "Pokemon name": "machamp",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "bellsprout",
+        "Latitude": "55.7879",
+        "Longitude": "49.1233"
+    },
+    {
+        "Pokemon name": "weepinbell",
+        "Latitude": "55.7879",
+        "Longitude": "49.1233"
+    },
+    {
+        "Pokemon name": "victreebel",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "tentacool",
+        "Latitude": "34.6901",
+        "Longitude": "135.1956"
+    },
+    {
+        "Pokemon name": "tentacruel",
+        "Latitude": "34.6901",
+        "Longitude": "135.1956"
+    },
+    {
+        "Pokemon name": "geodude",
+        "Latitude": "35.4437",
+        "Longitude": "139.638"
+    },
+    {
+        "Pokemon name": "graveler",
+        "Latitude": "32.7503",
+        "Longitude": "129.8779"
+    },
+    {
+        "Pokemon name": "golem",
+        "Latitude": "12.6814",
+        "Longitude": "101.2816"
+    },
+    {
+        "Pokemon name": "ponyta",
+        "Latitude": "13.9718",
+        "Longitude": "108.0151"
+    },
+    {
+        "Pokemon name": "rapidash",
+        "Latitude": "35.4682",
+        "Longitude": "133.0484"
+    },
+    {
+        "Pokemon name": "slowpoke",
+        "Latitude": "56.0153",
+        "Longitude": "92.8932"
+    },
+    {
+        "Pokemon name": "slowbro",
+        "Latitude": "10.0452",
+        "Longitude": "105.7469"
+    },
+    {
+        "Pokemon name": "magnemite",
+        "Latitude": "26.0742",
+        "Longitude": "119.2965"
+    },
+    {
+        "Pokemon name": "magneton",
+        "Latitude": "54.7903",
+        "Longitude": "32.0504"
+    },
+    {
+        "Pokemon name": "farfetchd",
+        "Latitude": "20.8449",
+        "Longitude": "106.6881"
+    },
+    {
+        "Pokemon name": "doduo",
+        "Latitude": "43.6028",
+        "Longitude": "39.7342"
+    },
+    {
+        "Pokemon name": "dodrio",
+        "Latitude": "35.4682",
+        "Longitude": "133.0484"
+    },
+    {
+        "Pokemon name": "seel",
+        "Latitude": "56.3269",
+        "Longitude": "44.0059"
+    },
+    {
+        "Pokemon name": "dewgong",
+        "Latitude": "54.7104",
+        "Longitude": "20.4522"
+    },
+    {
+        "Pokemon name": "grimer",
+        "Latitude": "52.2855",
+        "Longitude": "104.289"
+    },
+    {
+        "Pokemon name": "muk",
+        "Latitude": "21.0278",
+        "Longitude": "105.8342"
+    },
+    {
+        "Pokemon name": "shellder",
+        "Latitude": "3.5952",
+        "Longitude": "98.6722"
+    },
+    {
+        "Pokemon name": "cloyster",
+        "Latitude": "3.1569",
+        "Longitude": "101.7123"
+    },
+    {
+        "Pokemon name": "gastly",
+        "Latitude": "35.6762",
+        "Longitude": "139.6503"
+    },
+    {
+        "Pokemon name": "haunter",
+        "Latitude": "4.5586",
+        "Longitude": "105.4068"
+    },
+    {
+        "Pokemon name": "gengar",
+        "Latitude": "68.9733",
+        "Longitude": "33.0856"
+    },
+    {
+        "Pokemon name": "onix",
+        "Latitude": "35.4437",
+        "Longitude": "139.638"
+    },
+    {
+        "Pokemon name": "drowzee",
+        "Latitude": "1.1255",
+        "Longitude": "97.5247"
+    },
+    {
+        "Pokemon name": "hypno",
+        "Latitude": "57.1553",
+        "Longitude": "65.5619"
+    },
+    {
+        "Pokemon name": "krabby",
+        "Latitude": "56.3269",
+        "Longitude": "44.0059"
+    },
+    {
+        "Pokemon name": "kingler",
+        "Latitude": "1.5533",
+        "Longitude": "110.3592"
+    },
+    {
+        "Pokemon name": "voltorb",
+        "Latitude": "45.036",
+        "Longitude": "38.9746"
+    },
+    {
+        "Pokemon name": "electrode",
+        "Latitude": "22.1987",
+        "Longitude": "113.5439"
+    },
+    {
+        "Pokemon name": "exeggcute",
+        "Latitude": "8.5874",
+        "Longitude": "81.2152"
+    },
+    {
+        "Pokemon name": "exeggutor",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "cubone",
+        "Latitude": "43.1332",
+        "Longitude": "131.9113"
+    },
+    {
+        "Pokemon name": "marowak",
+        "Latitude": "-27.4705",
+        "Longitude": "153.026"
+    },
+    {
+        "Pokemon name": "hitmonlee",
+        "Latitude": "29.6526",
+        "Longitude": "91.1378"
+    },
+    {
+        "Pokemon name": "hitmonchan",
+        "Latitude": "29.6526",
+        "Longitude": "91.1378"
+    },
+    {
+        "Pokemon name": "lickitung",
+        "Latitude": "-33.8688",
+        "Longitude": "151.2093"
+    },
+    {
+        "Pokemon name": "koffing",
+        "Latitude": "55.1644",
+        "Longitude": "61.4368"
+    },
+    {
+        "Pokemon name": "weezing",
+        "Latitude": "38.2682",
+        "Longitude": "140.8694"
+    },
+    {
+        "Pokemon name": "rhyhorn",
+        "Latitude": "22.3193",
+        "Longitude": "114.1694"
+    },
+    {
+        "Pokemon name": "rhydon",
+        "Latitude": "22.3193",
+        "Longitude": "114.1694"
+    },
+    {
+        "Pokemon name": "chansey",
+        "Latitude": "54.9914",
+        "Longitude": "73.3645"
+    },
+    {
+        "Pokemon name": "tangela",
+        "Latitude": "45.7567",
+        "Longitude": "126.6424"
+    },
+    {
+        "Pokemon name": "kangaskhan",
+        "Latitude": "-37.8136",
+        "Longitude": "144.9631"
+    },
+    {
+        "Pokemon name": "horsea",
+        "Latitude": "56.3269",
+        "Longitude": "44.0059"
+    },
+    {
+        "Pokemon name": "seadra",
+        "Latitude": "56.3269",
+        "Longitude": "44.0059"
+    },
+    {
+        "Pokemon name": "goldeen",
+        "Latitude": "32.0584",
+        "Longitude": "118.7965"
+    },
+    {
+        "Pokemon name": "seaking",
+        "Latitude": "32.0584",
+        "Longitude": "118.7965"
+    },
+    {
+        "Pokemon name": "staryu",
+        "Latitude": "34.6901",
+        "Longitude": "135.1956"
+    },
+    {
+        "Pokemon name": "starmie",
+        "Latitude": "-22.5752",
+        "Longitude": "144.0848"
+    },
+    {
+        "Pokemon name": "mr-mime",
+        "Latitude": "45.036",
+        "Longitude": "38.9746"
+    },
+    {
+        "Pokemon name": "scyther",
+        "Latitude": "-23.698",
+        "Longitude": "133.8807"
+    },
+    {
+        "Pokemon name": "jynx",
+        "Latitude": "57.8167",
+        "Longitude": "28.3345"
+    },
+    {
+        "Pokemon name": "electabuzz",
+        "Latitude": "-34.2069",
+        "Longitude": "142.1367"
+    },
+    {
+        "Pokemon name": "magmar",
+        "Latitude": "26.0742",
+        "Longitude": "119.2965"
+    },
+    {
+        "Pokemon name": "pinsir",
+        "Latitude": "59.9343",
+        "Longitude": "30.3351"
+    },
+    {
+        "Pokemon name": "tauros",
+        "Latitude": "54.9914",
+        "Longitude": "73.3645"
+    },
+    {
+        "Pokemon name": "magikarp",
+        "Latitude": "34.6901",
+        "Longitude": "135.1956"
+    },
+    {
+        "Pokemon name": "gyarados",
+        "Latitude": "34.6901",
+        "Longitude": "135.1956"
+    },
+    {
+        "Pokemon name": "lapras",
+        "Latitude": "54.7104",
+        "Longitude": "20.4522"
+    },
+    {
+        "Pokemon name": "ditto",
+        "Latitude": "45.036",
+        "Longitude": "38.9746"
+    },
+    {
+        "Pokemon name": "eevee",
+        "Latitude": "-28.0167",
+        "Longitude": "153.4"
+    },
+    {
+        "Pokemon name": "vaporeon",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "jolteon",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "flareon",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "porygon",
+        "Latitude": "-18.7669",
+        "Longitude": "46.8691"
+    },
+    {
+        "Pokemon name": "omanyte",
+        "Latitude": "43.0618",
+        "Longitude": "141.3545"
+    },
+    {
+        "Pokemon name": "omastar",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "kabuto",
+        "Latitude": "43.0618",
+        "Longitude": "141.3545"
+    },
+    {
+        "Pokemon name": "kabutops",
+        "Latitude": "51.5148",
+        "Longitude": "0.0651"
+    },
+    {
+        "Pokemon name": "aerodactyl",
+        "Latitude": "43.0618",
+        "Longitude": "141.3545"
+    },
+    {
+        "Pokemon name": "snorlax",
+        "Latitude": "53.0584",
+        "Longitude": "158.6321"
+    },
+    {
+        "Pokemon name": "articuno",
+        "Latitude": "52.6293",
+        "Longitude": "1.2979"
+    },
+    {
+        "Pokemon name": "zapdos",
+        "Latitude": "51.2802",
+        "Longitude": "1.0789"
+    },
+    {
+        "Pokemon name": "moltres",
+        "Latitude": "50.4155",
+        "Longitude": "-15.0737"
+    },
+    {
+        "Pokemon name": "dratini",
+        "Latitude": "39.9042",
+        "Longitude": "116.4074"
+    },
+    {
+        "Pokemon name": "dragonair",
+        "Latitude": "39.9042",
+        "Longitude": "116.4074"
+    },
+    {
+        "Pokemon name": "dragonite",
+        "Latitude": "50.3755",
+        "Longitude": "-4.1427"
+    },
+    {
+        "Pokemon name": "mewtwo",
+        "Latitude": "28.7041",
+        "Longitude": "77.1025"
+    }
+]
