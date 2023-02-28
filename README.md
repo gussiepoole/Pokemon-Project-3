@@ -20,16 +20,13 @@
 
 ## <a id="project-header"></a>Project Outline
 
-This project is the building of an interactive page about Pokemon. It uses a Python Flask-powered API and a SQLite database. We pulled elements from an API 
+This project is an interactive page about Pokemon. We pulled elements from an API  and built a SQLite database to house the data. We then used javascript to generate a wide variety of insulisations. Our interactive page houses a search bar, drop down menu, interactive maps and visualisations that change with the users interaction.
 
-Our interactive page houses a search bar, drop down menu, interactive maps and visualisations that change with the users interaction.
-  * An interactive map using 
-  * A SQLlite databse
 
  ## :wrench: <a id="reports-header"></a>Tools used :wrench:
   * Jupyter Notebook
-  * Javascript (d3, leaflet,
-  * SQLlite
+  * Javascript (d3, leaflet)
+  * SQLite
   * API
   * HTML/CSS
   
@@ -38,17 +35,16 @@ Our interactive page houses a search bar, drop down menu, interactive maps and v
 
  ## :computer: <a id="process-header"></a>An Inight into the Process :computer:
 
- **Steps in the process of plotting of Pokemon  
+ **Steps in the process of plotting Pokemon  
 
 - First we pulled the data from the API and made a dataframe in Jupyter Notebook
 !<img width="697" alt="Data extraction" src="https://user-images.githubusercontent.com/115706722/220992514-06006d4f-9078-4765-85b6-fe9415e48d0a.png">
 
-- We then exported the data to a csv
+- This was then exported to a csv
 - Then we looked at the world map and assigned each fiction Pokemon location a real city name from the world map, with corresponding coordinates so we were able to plot the fiction Pokemon location by latitude and longitude
-- We then created another csv for the Pokemon names and the latitude and longitude data (this was later converted in json format so it may be pulled in javascript
--  We created dataframe from the new location data and merged with previous dataframe
-
-- We then exported the clean DataFrame to SQLite
+- Next we created another csv for the Pokemon names and the latitude and longitude data (this was later converted in json format so it may be pulled in javascript
+-  We created a dataframe from the new location data and merged it with the previous dataframe
+- We then exported the clean, updated DataFrame to SQLite
 !<img width="736" alt="SQLite" src="https://user-images.githubusercontent.com/115706722/220993712-881f3e21-466a-4644-9880-2f9bb2a988c4.png">
 - Once our database was completed, we started the process of using Flask to work on the interactivity of our page by using Javascript
 !<img width="903" alt="image" src="https://user-images.githubusercontent.com/115706722/220994654-231f5b53-e141-4962-bc85-e1660a52f779.png">
