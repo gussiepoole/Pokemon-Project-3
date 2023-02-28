@@ -19,6 +19,10 @@
 ## <a id="dataset-header"></a>Dataset
 
 ## <a id="project-header"></a>Project Outline
+
+This project is the building of an interactive page about Pokemon. It uses a Python Flask-powered API and a SQLite database. We pulled elements from an API 
+
+Our interactive page houses a search bar, drop down menu, interactive maps and visualisations that change with the users interaction.
   * An interactive map using 
   * A SQLlite databse
 
