@@ -20,14 +20,14 @@
 
 ## <a id="project-header"></a>Project Outline
 
-This project is an interactive page about Pokemon. We pulled elements from an API  and built a SQLite database to house the data. We then used javascript to generate a wide variety of insulisations. Our interactive page houses a search bar, drop down menu, interactive maps and visualisations that change with the users interaction.
+This project is an interactive page about Pokemon. We pulled elements from an API  and built a SQLite database to house the data. We then used javascript to generate a wide variety of visulisations. Our interactive page houses a search bar, drop down menu, interactive maps and visualisations that change with the users interaction.
 
 
  ## :wrench: <a id="reports-header"></a>Tools used :wrench:
   * Jupyter Notebook
   * Javascript (d3, leaflet)
   * SQLite
-  * API
+  * Flask-powered API
   * HTML/CSS
   
 
@@ -46,15 +46,16 @@ This project is an interactive page about Pokemon. We pulled elements from an AP
 -  We created a dataframe from the new location data and merged it with the previous dataframe
 - We then exported the clean, updated DataFrame to SQLite
 !<img width="736" alt="SQLite" src="https://user-images.githubusercontent.com/115706722/220993712-881f3e21-466a-4644-9880-2f9bb2a988c4.png">
-- Once our database was completed, we started the process of using Flask to work on the interactivity of our page by using Javascript
+- Once our database was completed, we started the process of using Flask to work on the interactivity of our page using Javascript
 !<img width="903" alt="image" src="https://user-images.githubusercontent.com/115706722/220994654-231f5b53-e141-4962-bc85-e1660a52f779.png">
 !<img width="643" alt="Flask image" src="https://user-images.githubusercontent.com/115706722/220995070-0813c2e5-2c24-44dd-afd9-3c663fadc9e6.png">
-- We then created visualtions such as maps/charts for:
+- We then created a variety of visualtions looking at different features of Pokemon that we gathered from the API, including: 
      - Pokemon growth grate
-     - Pokemon location
-     - Pokemon location splotted by height and attack strength
-     - A heatmap showing Pokemon grouped by location
-
+     - Pokemon gender
+     - Poken attack type
+     - Pokemon location - by invidiual coordinates and also grouped by location in heatmap
+     - Pokemon location plotted with plot size and colour by height and attack strength 
+    
 - Finally we used HTML and CSS to create a visually appealing interface for the user to view the data.
 
 !<img width="617" alt="Screenshot 2023-02-22 at 16 30 27" src="https://user-images.githubusercontent.com/115706722/220922160-574e8db6-844e-498a-8e4a-fe6e69fbc83f.png">
