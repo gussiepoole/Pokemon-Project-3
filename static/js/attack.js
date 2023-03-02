@@ -1,21 +1,14 @@
-// Fetch data for the first 150 Pokémon from the PokeAPI
-fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
-  .then(response => response.json())
-  .then(data => {
-    // Extract Attack, Defense, HP, and type data for each Pokémon
-    const pokemonData = data.results.map((pokemon, index) => {
-      return fetch(pokemon.url)
-        .then(response => response.json())
-        .then(data => ({
-          Attack: data.stats[1].base_stat,
-          Defense: data.stats[2].base_stat,
-          HP: data.stats[0].base_stat,
-          Type: data.types[0].type.name,
-        }));
-    });
+// Use this link to get the GeoJSON data.
+var link = "http://127.0.0.1:5000/data"
 
+// Fetch data for the first 150 Pokémon from the PokeAPI
+function init() {
+d3.json(link).then(function(data) {
+  
+    // Extract Attack, Defense, HP, and type data for each Pokémon
+   
     // Wait for all data to be fetched
-    Promise.all(pokemonData).then(data => {
+    
       // Define a color scale for each Pokemon type
       const colors = {
         normal: '#A8A878',
@@ -39,20 +32,20 @@ fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
       };
 
       // Create a Plotly trace for each Pokémon
-      const trace = {
-        x: data.map(pokemon => pokemon.Attack),
-        y: data.map(pokemon => pokemon.Defense),
-        z: data.map(pokemon => pokemon.HP),
+      var trace = {
+        x: data.map(pokemon => pokemon.attack),
+        y: data.map(pokemon => pokemon.defence),
+        z: data.map(pokemon => pokemon.weight),
         mode: 'markers',
         type: 'scatter3d',
         marker: {
           size: 5,
-          color: data.map(pokemon => colors[pokemon.Type]),
+          color: data.map(pokemon => colors[pokemon.type]),
         },
       };
-
+      console.log(trace);
       // Create the plot layout
-      const layout = {
+      var layout = {
         scene: {
           xaxis: { title: 'Attack' },
           yaxis: { title: 'Defense' },
@@ -69,10 +62,10 @@ fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
       };
 
       // Create the plot
-      Plotly.newPlot('plot', [trace], layout);
+      Plotly.newPlot('plot', [trace], layout); 
     });
-  })
-  .catch(error => {
-    console.error('Error fetching data:', error);
-  });
+    
+  };
+  init();
+ 
 
