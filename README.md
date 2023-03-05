@@ -8,8 +8,6 @@
 * [Dataset](#dataset-header)
 * [Project Outline](#project-header)
 * [Tools used](#reports-header)
-* [Dependencies and Setup Required](#dependencies-header)
-* [File Guide](#file-header)
 * [Inight into the Process](#process-header)
 * [Challenges](#challenge-header)
 * [Team](#team-header)
@@ -55,8 +53,16 @@ This project is an interactive page about Pokemon. We pulled elements from an AP
      - Poken attack type
      - Pokemon location - by invidiual coordinates and also grouped by location in heatmap
      - Pokemon location plotted with plot size and colour by height and attack strength 
+     - A dropdown menu which shows a table of Pokemon stats
+<img width="461" alt="Screenshot 2023-03-05 at 17 23 34" src="https://user-images.githubusercontent.com/115706722/222975924-0dba98f0-8e27-476c-9a68-30e7b8713c57.png">
+
     
 - Finally we used HTML and CSS to create a visually appealing interface for the user to view the data.
+
+Here are some of the different views we have created on our interactive page:
+<img width="1221" alt="Screenshot 2023-03-05 at 17 14 32" src="https://user-images.githubusercontent.com/115706722/222975811-626a57a9-f9f0-466b-85e0-8280279c37c2.png">
+
+<img width="977" alt="Screenshot 2023-03-05 at 17 19 50" src="https://user-images.githubusercontent.com/115706722/222975805-cb75b2f9-437b-4cba-a985-bd8eff2addef.png">
 
 !<img width="617" alt="Screenshot 2023-02-22 at 16 30 27" src="https://user-images.githubusercontent.com/115706722/220922160-574e8db6-844e-498a-8e4a-fe6e69fbc83f.png">
 _
@@ -64,8 +70,8 @@ _
  ## :stop_sign: <a id="challenge-header"></a>**Challenges** :stop_sign:
 
 #1 - Data restriction
-  -  At the beginning of our project we found it challegning to find an API that did not requiure payment for usage. 
-  -  We were also put off from web scraping because we found that a lot of the data tables we wanted to scrape were in    the format of image rather than raw text
+  -  At the beginning of our project we found it challegning to find an API that did not requiure payment for usage
+  -  We were also put off from web scraping because we found that a lot of the data tables we wanted to scrape were in the format of image rather than raw text
   
 
  ## :dancing_women: <a id="team-header"></a> Team :dancing_women:
